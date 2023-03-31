@@ -27,9 +27,7 @@ function imcResult(){
         resultSpan.innerHTML = decideResult(imc)
         validResult.classList.remove("invisible")
     }
-    
-    
-    console.log(imc)
+
 }
 
 function decideResult(imc){
